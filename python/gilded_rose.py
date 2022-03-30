@@ -36,7 +36,7 @@ class GildedRose(object):
                         self.incrementQualityByOne(item)
 
     def incrementQualityByOne(self, item):
-        self.incrementQualityByOne(item)
+        item.quality = item.quality + 1
 
 
 class Item:
